@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 20px; /* Ajuste de padding para maior respiração */
+  background: linear-gradient(135deg, #f3f4f6, #cfd9df); /* Gradiente suave */
+  font-family: 'Roboto', sans-serif; /* Fonte moderna e legível */
+  color: #333; /* Cor de texto padrão mais suave */
+  line-height: 1.6; /* Melhor legibilidade */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease; /* Transição suave para mudanças de fundo */
+}
+
+code {
+  font-family: 'Fira Code', Menlo, Monaco, Consolas, 'Courier New', monospace; /* Fonte moderna para código */
+  background-color: #f4f4f4; /* Fundo suave para blocos de código */
+  padding: 2px 5px; /* Espaçamento para blocos de código */
+  border-radius: 4px; /* Cantos arredondados para um visual moderno */
+  color: #c7254e; /* Cor de texto para código */
+}
+
+/* Adicionando responsividade */
+@media (max-width: 768px) {
+  body {
+    padding: 10px; /* Reduz o padding em telas menores */
+  }
+}

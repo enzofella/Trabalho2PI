@@ -1,0 +1,48 @@
+.App-header {
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradiente de fundo */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin); /* Aumentar um pouco o tamanho da fonte */
+  color: #ffffff; /* Mantendo o texto em branco */
+  text-align: center; /* Centralizar texto */
+  padding: 20px; /* Adiciona um padding para respiração */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.App-link {
+  color: #00d8ff; /* Cor vibrante para o link */
+  text-decoration: none; /* Remove sublinhado */
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease; /* Suaviza mudanças de cor e transformação */
+}
+
+.App-link:hover {
+  color: #ff7e5f; /* Muda cor no hover */
+  transform: scale(1.1); /* Leve aumento no hover */
+}
+
+@keyframes App-logo-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Adicionando responsividade */
+@media (max-width: 768px) {
+  .App-header {
+    font-size: calc(10px + 2vmin); /* Ajuste de fonte em telas menores */
+    padding: 15px; /* Ajuste de padding para telas menores */
+  }
+}
+
+@media (max-width: 480px) {
+  .App-header {
+    font-size: calc(8px + 2vmin); /* Fonte menor para telas muito pequenas */
+  }
+}
